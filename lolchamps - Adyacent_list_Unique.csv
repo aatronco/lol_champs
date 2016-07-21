@@ -1,0 +1,245 @@
+Source,Target,relationship
+Heimerdinger,Jayce,Friendly
+Heimerdinger,Gnar,Friendly
+Heimerdinger,Ziggs,Friendly
+Heimerdinger,Tahm Kench,Antagonistic
+Heimerdinger,Viktor,Antagonistic
+Kennen,Zed,Antagonistic
+Kennen,Tahm Kench,Antagonistic
+Lulu,Tahm Kench,Antagonistic
+Rumble,Ziggs,Friendly
+Rumble,Tahm Kench,Antagonistic
+Teemo,Tahm Kench,Antagonistic
+Tristana,Tahm Kench,Antagonistic
+Teemo,Veigar,Antagonistic
+Lulu,Veigar,Friendly
+Rumble,Tristana,Friendly
+Teemo,Tristana,Friendly
+Rumble,Teemo,Antagonistic
+Kennen,Shen,Friendly
+Heimerdinger,Rumble,Antagonistic
+Amumu,Annie,Friendly
+Fizz,Nautilus,Antagonistic
+Fizz,Tahm Kench,Antagonistic
+Gangplank,Graves,Antagonistic
+Gangplank,Twisted Fate,Antagonistic
+Gangplank,Zed,Antagonistic
+Graves,Twisted Fate,Friendly
+Gangplank,Swain,Antagonistic
+Fizz,Nami,Friendly
+Gangplank,Miss Fortune,Antagonistic
+Graves,Illaoi,Friendly
+Gangplank,Illaoi,Friendly
+Kayle,Morgana,Antagonistic
+Kayle,Morgana,Related
+Poppy,Tahm Kench,Antagonistic
+Sona,Taric,Friendly
+Garen,Lux,Friendly
+Garen,Katarina,Romantic
+Lux,Garen,Related
+Quinn,Talon,Antagonistic
+Sona,Xin Zhao,Friendly
+Garen,Xin Zhao,Friendly
+Vayne,Warwick,Antagonistic
+Vayne,Vladimir,Antagonistic
+Jarvan IV,Urgot,Antagonistic
+Garen,Urgot,Antagonistic
+Jarvan IV,Swain,Antagonistic
+Garen,Swain,Antagonistic
+Jarvan IV,Sion,Antagonistic
+Galio,Sion,Antagonistic
+Galio,Shyvana,Friendly
+Jarvan IV,Shyvana,Friendly
+Jarvan IV,Quinn,Friendly
+Galio,Poppy,Friendly
+Fiora,Lux,Antagonistic
+Galio,Kayle,Friendly
+Garen,Katarina,Antagonistic
+Fiora,Jax,Antagonistic
+Garen,Jarvan IV,Friendly
+Ashe,Anivia,Friendly
+Gragas,Braum,Friendly
+Lissandra,Brand,Antagonistic
+Lissandra,Braum,Antagonistic
+Nunu,Lissandra,Antagonistic
+Trundle,Sejuani,Antagonistic
+Tryndamere,Ashe,Friendly
+Tryndamere,Ashe,Romantic
+Tryndamere,Lissandra,Antagonistic
+Ashe,Braum,Friendly
+Tryndamere,Braum,Friendly
+Volibear,Zilean,Antagonistic
+Olaf,Volibear,Friendly
+Sejuani,Volibear,Friendly
+Lissandra,Udyr,Antagonistic
+Sejuani,Udyr,Friendly
+Sejuani,Tryndamere,Antagonistic
+Gragas,Tryndamere,Friendly
+Ashe,Trundle,Antagonistic
+Lissandra,Trundle,Friendly
+Lissandra,Sejuani,Antagonistic
+Ashe,Sejuani,Antagonistic
+Olaf,Sejuani,Friendly
+Anivia,Nunu,Friendly
+Ashe,Nunu,Friendly
+Ashe,Lissandra,Antagonistic
+Anivia,Lissandra,Antagonistic
+Gragas,Jax,Friendly
+Anivia,Gnar,Speculative
+Anivia,Brand,Antagonistic
+Malphite,Maokai,Friendly
+Nami,Nautilus,Antagonistic
+Maokai,Zyra,Antagonistic
+Alistar,Xin Zhao,Friendly
+Nidalee,Udyr,Friendly
+Rammus,Twitch,Antagonistic
+Malphite,Skarner,Friendly
+Nocturne,Shaco,Friendly
+Fiddlesticks,Shaco,Friendly
+Brand,Ryze,Antagonistic
+Nidalee,Rengar,Antagonistic
+Fiddlesticks,Nocturne,Friendly
+Janna,Lux,Friendly
+Brand,Braum,Antagonistic
+Akali,Zed,Antagonistic
+Irelia,Soraka,Friendly
+Irelia,Syndra,Antagonistic
+Karma,Syndra,Antagonistic
+Lee Sin,Sona,Friendly
+Shen,Zed,Antagonistic
+Syndra,Zed,Friendly
+Ahri,Wukong,Friendly
+Master Yi,Wukong,Friendly
+Soraka,Warwick,Antagonistic
+Lee Sin,Udyr,Friendly
+Master Yi,Singed,Antagonistic
+Irelia,Singed,Antagonistic
+Akali,Shen,Friendly
+Karma,Lee Sin,Friendly
+Akali,Kennen,Friendly
+Irelia,Karma,Friendly
+Diana,Nami,Speculative
+Pantheon,Aurelion Sol,Antagonistic
+Leona,Pantheon,Friendly
+Diana,Leona,Antagonistic
+Darius,Katarina,Antagonistic
+Darius,Talon,Antagonistic
+Katarina,Swain,Antagonistic
+Katarina,Sion,Friendly
+Sion,Swain,Antagonistic
+Vladimir,Swain,Friendly
+Vladimir,Darius,Antagonistic
+Draven,Draven,Romantic
+Katarina,Talon,Friendly
+Sion,Urgot,Antagonistic
+Talon,Quinn,Friendly
+Talon,Katarina,Antagonistic
+Riven,Yasuo,Antagonistic
+Cassiopeia,Xerath,Friendly
+LeBlanc,Vladimir,Friendly
+Sion,Vladimir,Friendly
+Riven,Varus,Antagonistic
+Darius,Swain,Friendly
+LeBlanc,Swain,Friendly
+Cassiopeia,Sivir,Antagonistic
+LeBlanc,Sion,Friendly
+Riven,Singed,Antagonistic
+Cassiopeia,Renekton,Friendly
+Cassiopeia,Nasus,Antagonistic
+Cassiopeia,Katarina,Related
+Darius,Draven,Related
+Vi,Ezreal,Friendly
+Zilean,Ekko,Friendly
+Orianna,Viktor,Antagonistic
+Jayce,Viktor,Antagonistic
+Caitlyn,Vi,Friendly
+Jayce,Vi,Friendly
+Ezreal,Lux,Romantic
+Caitlyn,Jinx,Antagonistic
+Jayce,Jinx,Antagonistic
+Ezreal,Jayce,Friendly
+Caitlyn,Jayce,Friendly
+Corki,Heimerdinger,Friendly
+Caitlyn,Ezreal,Friendly
+Evelynn,Twisted Fate,Antagonistic
+Hecarim,Yorick,Friendly
+Hecarim,Mordekaiser,Friendly
+Hecarim,Thresh,Friendly
+Kalista,Cassiopeia,Antagonistic
+Kalista,LeBlanc,Antagonistic
+Kalista,Lissandra,Antagonistic
+Kalista,Zed,Antagonistic
+Karthus,Mordekaiser,Friendly
+Karthus,Thresh,Friendly
+Elise,Vladimir,Friendly
+Karthus,Soraka,Antagonistic
+Elise,LeBlanc,Friendly
+Hecarim,Kalista,Antagonistic
+Renekton,Sivir,Antagonistic
+Renekton,Azir,Antagonistic
+Skarner,Taric,Friendly
+Renekton,Nasus,Related
+Sivir,Azir,Friendly
+Nasus,Xerath,Antagonistic
+Renekton,Xerath,Friendly
+Nasus,Sivir,Friendly
+Nasus,Renekton,Antagonistic
+Taliyah,Yasuo,Friendly
+Taliyah,Sivir,Friendly
+Taliyah,Nasus,Friendly
+Taliyah,Azir,Antagonistic
+Taliyah,Xerath,Antagonistic
+Kassadin,Malzahar,Antagonistic
+Dr. Mundo,Dr. Mundo,Friendly
+Twitch,Zac,Friendly
+Singed,Warwick,Friendly
+Singed,Viktor,Friendly
+Blitzcrank,Viktor,Other
+Blitzcrank,Rammus,Friendly
+Blitzcrank,Orianna,Friendly
+Aatrox,Tryndamere,Other
+Ekko,Jayce,Antagonistic
+Gnar,Tahm Kench,Antagonistic
+Illaoi,Twisted Fate,Friendly
+Illaoi,Nautilus,Antagonistic
+Illaoi,Hecarim,Antagonistic
+Illaoi,Mordekaiser,Antagonistic
+Illaoi,Yorick,Antagonistic
+Illaoi,Thresh,Antagonistic
+Illaoi,Karthus,Antagonistic
+Jhin,Sona,Antagonistic
+Jhin,Master Yi,Antagonistic
+Jhin,Zed,Antagonistic
+Kha'Zix,Malzahar,Friendly
+Kindred,Hecarim,Antagonistic
+Kindred,Mordekaiser,Antagonistic
+Kindred,Thresh,Antagonistic
+Kindred,Karthus,Antagonistic
+Kindred,Yorick,Antagonistic
+Kog'Maw,Malzahar,Friendly
+Lucian,Thresh,Antagonistic
+Vel'Koz,Kog'Maw,Friendly
+Vel'Koz,Cho'Gath,Friendly
+Vel'Koz,Kha'Zix,Friendly
+Vel'Koz,Kassadin,Antagonistic
+Azir,Sivir,Related
+Braum,Tryndamere,Antagonistic
+Braum,Ashe,Antagonistic
+Kindred,Kindred,Friendly
+Urgot,Sion,Friendly
+Vel'Koz,Zilean,Antagonistic
+Azir,Xerath,Antagonistic
+Ekko,Viktor,Antagonistic
+Urgot,Viktor,Friendly
+Jinx,Vi,Antagonistic
+Aatrox,Tahm Kench,Friendly
+Jhin,Shen,Antagonistic
+Kha'Zix,Rengar,Antagonistic
+Azir,Nasus,Friendly
+Illaoi,Miss Fortune,Friendly
+Gnar,Lulu,Friendly
+Kha'Zix,Kog'Maw,Friendly
+Cho'Gath,Kog'Maw,Friendly
+Cho'Gath,Kha'Zix,Friendly
+Ekko,Jinx,Friendly
+Azir,Cassiopeia,Antagonistic
