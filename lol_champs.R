@@ -50,6 +50,12 @@ plot(ceb,net, vertex.label.cex=0.5, vertex.label.dist = 0.2, vertex.label.font= 
 #Assigns node labels, randomizes, than replaces each vertex’s label with the label that appears most frequently among neighbors. Those steps are repeated until each vertex has the most common label of its neighbors.
 
 clp <- cluster_label_prop(net)
+
+length(clp) # Number of Communities
+membership(clp) # community membership for each node
+modularity(clp) # how modular the graph partitioning is (High modularity for a partitioning reflects dense connections within communities and sparse connections across communities.)
+crossing(clp, net) # boolean vector: TRUE for edges across communities
+
 plot(clp,net, vertex.label.cex=0.5, vertex.label.dist = 0.2, vertex.label.font= 3, vertex.label.color="black" ,vertex.size = degree(net)/2, vertex.color = "grey", layout=layout.fruchterman.reingold)
 groups <- membership(clp)
 print(groups)
@@ -58,6 +64,12 @@ print(groups)
 
 net_non_multiple <- simplify( net, remove.multiple = T, remove.loops = F)
 cfg <- cluster_fast_greedy(net_non_multiple)
+
+length(cfg) # Number of Communities
+membership(cfg) # community membership for each node
+modularity(cfg) # how modular the graph partitioning is (High modularity for a partitioning reflects dense connections within communities and sparse connections across communities.)
+crossing(cfg, net) # boolean vector: TRUE for edges across communities
+
 plot(cfg,net, vertex.label.cex=0.5, vertex.label.dist = 0.2, vertex.label.font= 3, vertex.label.color="black" ,vertex.size = degree(net)/2, vertex.color = "grey", layout=layout.fruchterman.reingold)
 
 # Generate Javascript interactive map using the visNetwork library
