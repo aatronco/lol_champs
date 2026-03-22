@@ -1,0 +1,690 @@
+[
+  {
+    "id": "Aatrox",
+    "region": "Independent"
+  },
+  {
+    "id": "Ahri",
+    "region": "Ionia"
+  },
+  {
+    "id": "Akali",
+    "region": "Ionia"
+  },
+  {
+    "id": "Akshan",
+    "region": "Unknown"
+  },
+  {
+    "id": "Alistar",
+    "region": "Independent"
+  },
+  {
+    "id": "Ambessa",
+    "region": "Unknown"
+  },
+  {
+    "id": "Amumu",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Anivia",
+    "region": "Freljord"
+  },
+  {
+    "id": "Annie",
+    "region": "Independent"
+  },
+  {
+    "id": "Aphelios",
+    "region": "Unknown"
+  },
+  {
+    "id": "Ashe",
+    "region": "Freljord"
+  },
+  {
+    "id": "Aurelion Sol",
+    "region": "Mt. Targon"
+  },
+  {
+    "id": "Aurora",
+    "region": "Unknown"
+  },
+  {
+    "id": "Azir",
+    "region": "Shurima"
+  },
+  {
+    "id": "Bard",
+    "region": "Independent"
+  },
+  {
+    "id": "Bel'Veth",
+    "region": "Unknown"
+  },
+  {
+    "id": "Blitzcrank",
+    "region": "Zaun"
+  },
+  {
+    "id": "Brand",
+    "region": "Independent"
+  },
+  {
+    "id": "Braum",
+    "region": "Freljord"
+  },
+  {
+    "id": "Briar",
+    "region": "Unknown"
+  },
+  {
+    "id": "Caitlyn",
+    "region": "Piltover"
+  },
+  {
+    "id": "Camille",
+    "region": "Unknown"
+  },
+  {
+    "id": "Cassiopeia",
+    "region": "Noxus"
+  },
+  {
+    "id": "Cho'Gath",
+    "region": "Unknown"
+  },
+  {
+    "id": "Corki",
+    "region": "Piltover"
+  },
+  {
+    "id": "Darius",
+    "region": "Noxus"
+  },
+  {
+    "id": "Diana",
+    "region": "Mt. Targon"
+  },
+  {
+    "id": "Draven",
+    "region": "Noxus"
+  },
+  {
+    "id": "Dr. Mundo",
+    "region": "Zaun"
+  },
+  {
+    "id": "Ekko",
+    "region": "Zaun"
+  },
+  {
+    "id": "Elise",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Evelynn",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Ezreal",
+    "region": "Piltover"
+  },
+  {
+    "id": "Fiddlesticks",
+    "region": "Independent"
+  },
+  {
+    "id": "Fiora",
+    "region": "Demacia"
+  },
+  {
+    "id": "Fizz",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Galio",
+    "region": "Demacia"
+  },
+  {
+    "id": "Gangplank",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Garen",
+    "region": "Demacia"
+  },
+  {
+    "id": "Gnar",
+    "region": "Independent"
+  },
+  {
+    "id": "Gragas",
+    "region": "Freljord"
+  },
+  {
+    "id": "Graves",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Gwen",
+    "region": "Unknown"
+  },
+  {
+    "id": "Hecarim",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Heimerdinger",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Hwei",
+    "region": "Unknown"
+  },
+  {
+    "id": "Illaoi",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Irelia",
+    "region": "Ionia"
+  },
+  {
+    "id": "Ivern",
+    "region": "Unknown"
+  },
+  {
+    "id": "Janna",
+    "region": "Independent"
+  },
+  {
+    "id": "Jarvan IV",
+    "region": "Demacia"
+  },
+  {
+    "id": "Jax",
+    "region": "Ionia"
+  },
+  {
+    "id": "Jayce",
+    "region": "Piltover"
+  },
+  {
+    "id": "Jhin",
+    "region": "Ionia"
+  },
+  {
+    "id": "Jinx",
+    "region": "Piltover"
+  },
+  {
+    "id": "Kai'Sa",
+    "region": "Unknown"
+  },
+  {
+    "id": "Kalista",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Karma",
+    "region": "Ionia"
+  },
+  {
+    "id": "Karthus",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Kassadin",
+    "region": "Void"
+  },
+  {
+    "id": "Katarina",
+    "region": "Noxus"
+  },
+  {
+    "id": "Kayle",
+    "region": "Demacia"
+  },
+  {
+    "id": "Kayn",
+    "region": "Unknown"
+  },
+  {
+    "id": "Kennen",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Kha'Zix",
+    "region": "Unknown"
+  },
+  {
+    "id": "Kindred",
+    "region": "Independent"
+  },
+  {
+    "id": "Kled",
+    "region": "Unknown"
+  },
+  {
+    "id": "Kog'Maw",
+    "region": "Unknown"
+  },
+  {
+    "id": "K'Sante",
+    "region": "Unknown"
+  },
+  {
+    "id": "LeBlanc",
+    "region": "Noxus"
+  },
+  {
+    "id": "Lee Sin",
+    "region": "Ionia"
+  },
+  {
+    "id": "Leona",
+    "region": "Mt. Targon"
+  },
+  {
+    "id": "Lillia",
+    "region": "Unknown"
+  },
+  {
+    "id": "Lissandra",
+    "region": "Freljord"
+  },
+  {
+    "id": "Lucian",
+    "region": "Demacia"
+  },
+  {
+    "id": "Lulu",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Lux",
+    "region": "Demacia"
+  },
+  {
+    "id": "Malphite",
+    "region": "Independent"
+  },
+  {
+    "id": "Malzahar",
+    "region": "Void"
+  },
+  {
+    "id": "Maokai",
+    "region": "Independent"
+  },
+  {
+    "id": "Master Yi",
+    "region": "Ionia"
+  },
+  {
+    "id": "Mel",
+    "region": "Unknown"
+  },
+  {
+    "id": "Milio",
+    "region": "Unknown"
+  },
+  {
+    "id": "Miss Fortune",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Wukong",
+    "region": "Ionia"
+  },
+  {
+    "id": "Mordekaiser",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Morgana",
+    "region": "Noxus"
+  },
+  {
+    "id": "Naafiri",
+    "region": "Unknown"
+  },
+  {
+    "id": "Nami",
+    "region": "Independent"
+  },
+  {
+    "id": "Nasus",
+    "region": "Shurima"
+  },
+  {
+    "id": "Nautilus",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Neeko",
+    "region": "Unknown"
+  },
+  {
+    "id": "Nidalee",
+    "region": "Independent"
+  },
+  {
+    "id": "Nilah",
+    "region": "Unknown"
+  },
+  {
+    "id": "Nocturne",
+    "region": "Independent"
+  },
+  {
+    "id": "Nunu & Willump",
+    "region": "Unknown"
+  },
+  {
+    "id": "Olaf",
+    "region": "Freljord"
+  },
+  {
+    "id": "Orianna",
+    "region": "Piltover"
+  },
+  {
+    "id": "Ornn",
+    "region": "Unknown"
+  },
+  {
+    "id": "Pantheon",
+    "region": "Mt. Targon"
+  },
+  {
+    "id": "Poppy",
+    "region": "Demacia"
+  },
+  {
+    "id": "Pyke",
+    "region": "Unknown"
+  },
+  {
+    "id": "Qiyana",
+    "region": "Unknown"
+  },
+  {
+    "id": "Quinn",
+    "region": "Demacia"
+  },
+  {
+    "id": "Rakan",
+    "region": "Unknown"
+  },
+  {
+    "id": "Rammus",
+    "region": "Independent"
+  },
+  {
+    "id": "Rek'Sai",
+    "region": "Unknown"
+  },
+  {
+    "id": "Rell",
+    "region": "Unknown"
+  },
+  {
+    "id": "Renata Glasc",
+    "region": "Unknown"
+  },
+  {
+    "id": "Renekton",
+    "region": "Shurima"
+  },
+  {
+    "id": "Rengar",
+    "region": "Independent"
+  },
+  {
+    "id": "Riven",
+    "region": "Noxus"
+  },
+  {
+    "id": "Rumble",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Ryze",
+    "region": "Independent"
+  },
+  {
+    "id": "Samira",
+    "region": "Unknown"
+  },
+  {
+    "id": "Sejuani",
+    "region": "Freljord"
+  },
+  {
+    "id": "Senna",
+    "region": "Unknown"
+  },
+  {
+    "id": "Seraphine",
+    "region": "Unknown"
+  },
+  {
+    "id": "Sett",
+    "region": "Unknown"
+  },
+  {
+    "id": "Shaco",
+    "region": "Independent"
+  },
+  {
+    "id": "Shen",
+    "region": "Ionia"
+  },
+  {
+    "id": "Shyvana",
+    "region": "Demacia"
+  },
+  {
+    "id": "Singed",
+    "region": "Zaun"
+  },
+  {
+    "id": "Sion",
+    "region": "Noxus"
+  },
+  {
+    "id": "Sivir",
+    "region": "Shurima"
+  },
+  {
+    "id": "Skarner",
+    "region": "Shurima"
+  },
+  {
+    "id": "Smolder",
+    "region": "Unknown"
+  },
+  {
+    "id": "Sona",
+    "region": "Demacia"
+  },
+  {
+    "id": "Soraka",
+    "region": "Ionia"
+  },
+  {
+    "id": "Swain",
+    "region": "Noxus"
+  },
+  {
+    "id": "Sylas",
+    "region": "Unknown"
+  },
+  {
+    "id": "Syndra",
+    "region": "Ionia"
+  },
+  {
+    "id": "Tahm Kench",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Taliyah",
+    "region": "Shurima"
+  },
+  {
+    "id": "Talon",
+    "region": "Noxus"
+  },
+  {
+    "id": "Taric",
+    "region": "Mt. Targon"
+  },
+  {
+    "id": "Teemo",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Thresh",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Tristana",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Trundle",
+    "region": "Freljord"
+  },
+  {
+    "id": "Tryndamere",
+    "region": "Freljord"
+  },
+  {
+    "id": "Twisted Fate",
+    "region": "Bilgewater"
+  },
+  {
+    "id": "Twitch",
+    "region": "Zaun"
+  },
+  {
+    "id": "Udyr",
+    "region": "Freljord"
+  },
+  {
+    "id": "Urgot",
+    "region": "Noxus"
+  },
+  {
+    "id": "Varus",
+    "region": "Ionia"
+  },
+  {
+    "id": "Vayne",
+    "region": "Demacia"
+  },
+  {
+    "id": "Veigar",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Vel'Koz",
+    "region": "Unknown"
+  },
+  {
+    "id": "Vex",
+    "region": "Unknown"
+  },
+  {
+    "id": "Vi",
+    "region": "Piltover"
+  },
+  {
+    "id": "Viego",
+    "region": "Unknown"
+  },
+  {
+    "id": "Viktor",
+    "region": "Zaun"
+  },
+  {
+    "id": "Vladimir",
+    "region": "Noxus"
+  },
+  {
+    "id": "Volibear",
+    "region": "Freljord"
+  },
+  {
+    "id": "Warwick",
+    "region": "Zaun"
+  },
+  {
+    "id": "Xayah",
+    "region": "Unknown"
+  },
+  {
+    "id": "Xerath",
+    "region": "Shurima"
+  },
+  {
+    "id": "Xin Zhao",
+    "region": "Demacia"
+  },
+  {
+    "id": "Yasuo",
+    "region": "Independent"
+  },
+  {
+    "id": "Yone",
+    "region": "Unknown"
+  },
+  {
+    "id": "Yorick",
+    "region": "Shadow Isles"
+  },
+  {
+    "id": "Yunara",
+    "region": "Unknown"
+  },
+  {
+    "id": "Yuumi",
+    "region": "Unknown"
+  },
+  {
+    "id": "Zaahen",
+    "region": "Unknown"
+  },
+  {
+    "id": "Zac",
+    "region": "Zaun"
+  },
+  {
+    "id": "Zed",
+    "region": "Ionia"
+  },
+  {
+    "id": "Zeri",
+    "region": "Unknown"
+  },
+  {
+    "id": "Ziggs",
+    "region": "Bandle City"
+  },
+  {
+    "id": "Zilean",
+    "region": "Piltover"
+  },
+  {
+    "id": "Zoe",
+    "region": "Unknown"
+  },
+  {
+    "id": "Zyra",
+    "region": "Independent"
+  }
+]

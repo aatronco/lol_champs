@@ -1,0 +1,1167 @@
+[
+  {
+    "source": "Heimerdinger",
+    "target": "Jayce",
+    "type": "Friendly"
+  },
+  {
+    "source": "Heimerdinger",
+    "target": "Gnar",
+    "type": "Friendly"
+  },
+  {
+    "source": "Heimerdinger",
+    "target": "Ziggs",
+    "type": "Friendly"
+  },
+  {
+    "source": "Heimerdinger",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Heimerdinger",
+    "target": "Viktor",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kennen",
+    "target": "Zed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kennen",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Lulu",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Rumble",
+    "target": "Ziggs",
+    "type": "Friendly"
+  },
+  {
+    "source": "Rumble",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Teemo",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Tristana",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Teemo",
+    "target": "Veigar",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Lulu",
+    "target": "Veigar",
+    "type": "Friendly"
+  },
+  {
+    "source": "Rumble",
+    "target": "Tristana",
+    "type": "Friendly"
+  },
+  {
+    "source": "Teemo",
+    "target": "Tristana",
+    "type": "Friendly"
+  },
+  {
+    "source": "Rumble",
+    "target": "Teemo",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kennen",
+    "target": "Shen",
+    "type": "Friendly"
+  },
+  {
+    "source": "Heimerdinger",
+    "target": "Rumble",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Amumu",
+    "target": "Annie",
+    "type": "Friendly"
+  },
+  {
+    "source": "Fizz",
+    "target": "Nautilus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Fizz",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Gangplank",
+    "target": "Graves",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Gangplank",
+    "target": "Twisted Fate",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Gangplank",
+    "target": "Zed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Graves",
+    "target": "Twisted Fate",
+    "type": "Friendly"
+  },
+  {
+    "source": "Gangplank",
+    "target": "Swain",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Fizz",
+    "target": "Nami",
+    "type": "Friendly"
+  },
+  {
+    "source": "Gangplank",
+    "target": "Miss Fortune",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Graves",
+    "target": "Illaoi",
+    "type": "Friendly"
+  },
+  {
+    "source": "Gangplank",
+    "target": "Illaoi",
+    "type": "Friendly"
+  },
+  {
+    "source": "Kayle",
+    "target": "Morgana",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Poppy",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Sona",
+    "target": "Taric",
+    "type": "Friendly"
+  },
+  {
+    "source": "Garen",
+    "target": "Lux",
+    "type": "Friendly"
+  },
+  {
+    "source": "Garen",
+    "target": "Katarina",
+    "type": "Romantic"
+  },
+  {
+    "source": "Quinn",
+    "target": "Talon",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Sona",
+    "target": "Xin Zhao",
+    "type": "Friendly"
+  },
+  {
+    "source": "Garen",
+    "target": "Xin Zhao",
+    "type": "Friendly"
+  },
+  {
+    "source": "Vayne",
+    "target": "Warwick",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Vayne",
+    "target": "Vladimir",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jarvan IV",
+    "target": "Urgot",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Garen",
+    "target": "Urgot",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jarvan IV",
+    "target": "Swain",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Garen",
+    "target": "Swain",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jarvan IV",
+    "target": "Sion",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Galio",
+    "target": "Sion",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Galio",
+    "target": "Shyvana",
+    "type": "Friendly"
+  },
+  {
+    "source": "Jarvan IV",
+    "target": "Shyvana",
+    "type": "Friendly"
+  },
+  {
+    "source": "Jarvan IV",
+    "target": "Quinn",
+    "type": "Friendly"
+  },
+  {
+    "source": "Galio",
+    "target": "Poppy",
+    "type": "Friendly"
+  },
+  {
+    "source": "Fiora",
+    "target": "Lux",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Galio",
+    "target": "Kayle",
+    "type": "Friendly"
+  },
+  {
+    "source": "Fiora",
+    "target": "Jax",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Garen",
+    "target": "Jarvan IV",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ashe",
+    "target": "Anivia",
+    "type": "Friendly"
+  },
+  {
+    "source": "Gragas",
+    "target": "Braum",
+    "type": "Friendly"
+  },
+  {
+    "source": "Lissandra",
+    "target": "Brand",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Lissandra",
+    "target": "Braum",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Nunu",
+    "target": "Lissandra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Trundle",
+    "target": "Sejuani",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Tryndamere",
+    "target": "Ashe",
+    "type": "Friendly"
+  },
+  {
+    "source": "Tryndamere",
+    "target": "Lissandra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Ashe",
+    "target": "Braum",
+    "type": "Friendly"
+  },
+  {
+    "source": "Tryndamere",
+    "target": "Braum",
+    "type": "Friendly"
+  },
+  {
+    "source": "Volibear",
+    "target": "Zilean",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Olaf",
+    "target": "Volibear",
+    "type": "Friendly"
+  },
+  {
+    "source": "Sejuani",
+    "target": "Volibear",
+    "type": "Friendly"
+  },
+  {
+    "source": "Lissandra",
+    "target": "Udyr",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Sejuani",
+    "target": "Udyr",
+    "type": "Friendly"
+  },
+  {
+    "source": "Sejuani",
+    "target": "Tryndamere",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Gragas",
+    "target": "Tryndamere",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ashe",
+    "target": "Trundle",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Lissandra",
+    "target": "Trundle",
+    "type": "Friendly"
+  },
+  {
+    "source": "Lissandra",
+    "target": "Sejuani",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Ashe",
+    "target": "Sejuani",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Olaf",
+    "target": "Sejuani",
+    "type": "Friendly"
+  },
+  {
+    "source": "Anivia",
+    "target": "Nunu",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ashe",
+    "target": "Nunu",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ashe",
+    "target": "Lissandra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Anivia",
+    "target": "Lissandra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Gragas",
+    "target": "Jax",
+    "type": "Friendly"
+  },
+  {
+    "source": "Anivia",
+    "target": "Gnar",
+    "type": "Speculative"
+  },
+  {
+    "source": "Anivia",
+    "target": "Brand",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Malphite",
+    "target": "Maokai",
+    "type": "Friendly"
+  },
+  {
+    "source": "Nami",
+    "target": "Nautilus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Maokai",
+    "target": "Zyra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Alistar",
+    "target": "Xin Zhao",
+    "type": "Friendly"
+  },
+  {
+    "source": "Nidalee",
+    "target": "Udyr",
+    "type": "Friendly"
+  },
+  {
+    "source": "Rammus",
+    "target": "Twitch",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Malphite",
+    "target": "Skarner",
+    "type": "Friendly"
+  },
+  {
+    "source": "Nocturne",
+    "target": "Shaco",
+    "type": "Friendly"
+  },
+  {
+    "source": "Fiddlesticks",
+    "target": "Shaco",
+    "type": "Friendly"
+  },
+  {
+    "source": "Brand",
+    "target": "Ryze",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Nidalee",
+    "target": "Rengar",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Fiddlesticks",
+    "target": "Nocturne",
+    "type": "Friendly"
+  },
+  {
+    "source": "Janna",
+    "target": "Lux",
+    "type": "Friendly"
+  },
+  {
+    "source": "Brand",
+    "target": "Braum",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Akali",
+    "target": "Zed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Irelia",
+    "target": "Soraka",
+    "type": "Friendly"
+  },
+  {
+    "source": "Irelia",
+    "target": "Syndra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Karma",
+    "target": "Syndra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Lee Sin",
+    "target": "Sona",
+    "type": "Friendly"
+  },
+  {
+    "source": "Shen",
+    "target": "Zed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Syndra",
+    "target": "Zed",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ahri",
+    "target": "Wukong",
+    "type": "Friendly"
+  },
+  {
+    "source": "Master Yi",
+    "target": "Wukong",
+    "type": "Friendly"
+  },
+  {
+    "source": "Soraka",
+    "target": "Warwick",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Lee Sin",
+    "target": "Udyr",
+    "type": "Friendly"
+  },
+  {
+    "source": "Master Yi",
+    "target": "Singed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Irelia",
+    "target": "Singed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Akali",
+    "target": "Shen",
+    "type": "Friendly"
+  },
+  {
+    "source": "Karma",
+    "target": "Lee Sin",
+    "type": "Friendly"
+  },
+  {
+    "source": "Akali",
+    "target": "Kennen",
+    "type": "Friendly"
+  },
+  {
+    "source": "Irelia",
+    "target": "Karma",
+    "type": "Friendly"
+  },
+  {
+    "source": "Pantheon",
+    "target": "Aurelion Sol",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Leona",
+    "target": "Pantheon",
+    "type": "Friendly"
+  },
+  {
+    "source": "Diana",
+    "target": "Leona",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Darius",
+    "target": "Katarina",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Darius",
+    "target": "Talon",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Katarina",
+    "target": "Swain",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Katarina",
+    "target": "Sion",
+    "type": "Friendly"
+  },
+  {
+    "source": "Sion",
+    "target": "Swain",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Vladimir",
+    "target": "Swain",
+    "type": "Friendly"
+  },
+  {
+    "source": "Vladimir",
+    "target": "Darius",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Draven",
+    "target": "Draven",
+    "type": "Romantic"
+  },
+  {
+    "source": "Katarina",
+    "target": "Talon",
+    "type": "Friendly"
+  },
+  {
+    "source": "Sion",
+    "target": "Urgot",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Riven",
+    "target": "Yasuo",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Cassiopeia",
+    "target": "Xerath",
+    "type": "Friendly"
+  },
+  {
+    "source": "LeBlanc",
+    "target": "Vladimir",
+    "type": "Friendly"
+  },
+  {
+    "source": "Sion",
+    "target": "Vladimir",
+    "type": "Friendly"
+  },
+  {
+    "source": "Riven",
+    "target": "Varus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Darius",
+    "target": "Swain",
+    "type": "Friendly"
+  },
+  {
+    "source": "LeBlanc",
+    "target": "Swain",
+    "type": "Friendly"
+  },
+  {
+    "source": "Cassiopeia",
+    "target": "Sivir",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "LeBlanc",
+    "target": "Sion",
+    "type": "Friendly"
+  },
+  {
+    "source": "Riven",
+    "target": "Singed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Cassiopeia",
+    "target": "Renekton",
+    "type": "Friendly"
+  },
+  {
+    "source": "Cassiopeia",
+    "target": "Nasus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Cassiopeia",
+    "target": "Katarina",
+    "type": "Related"
+  },
+  {
+    "source": "Darius",
+    "target": "Draven",
+    "type": "Related"
+  },
+  {
+    "source": "Vi",
+    "target": "Ezreal",
+    "type": "Friendly"
+  },
+  {
+    "source": "Zilean",
+    "target": "Ekko",
+    "type": "Friendly"
+  },
+  {
+    "source": "Orianna",
+    "target": "Viktor",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jayce",
+    "target": "Viktor",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Caitlyn",
+    "target": "Vi",
+    "type": "Friendly"
+  },
+  {
+    "source": "Jayce",
+    "target": "Vi",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ezreal",
+    "target": "Lux",
+    "type": "Romantic"
+  },
+  {
+    "source": "Caitlyn",
+    "target": "Jinx",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jayce",
+    "target": "Jinx",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Ezreal",
+    "target": "Jayce",
+    "type": "Friendly"
+  },
+  {
+    "source": "Caitlyn",
+    "target": "Jayce",
+    "type": "Friendly"
+  },
+  {
+    "source": "Corki",
+    "target": "Heimerdinger",
+    "type": "Friendly"
+  },
+  {
+    "source": "Caitlyn",
+    "target": "Ezreal",
+    "type": "Friendly"
+  },
+  {
+    "source": "Evelynn",
+    "target": "Twisted Fate",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Hecarim",
+    "target": "Yorick",
+    "type": "Friendly"
+  },
+  {
+    "source": "Hecarim",
+    "target": "Mordekaiser",
+    "type": "Friendly"
+  },
+  {
+    "source": "Hecarim",
+    "target": "Thresh",
+    "type": "Friendly"
+  },
+  {
+    "source": "Kalista",
+    "target": "Cassiopeia",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kalista",
+    "target": "LeBlanc",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kalista",
+    "target": "Lissandra",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kalista",
+    "target": "Zed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Karthus",
+    "target": "Mordekaiser",
+    "type": "Friendly"
+  },
+  {
+    "source": "Karthus",
+    "target": "Thresh",
+    "type": "Friendly"
+  },
+  {
+    "source": "Elise",
+    "target": "Vladimir",
+    "type": "Friendly"
+  },
+  {
+    "source": "Karthus",
+    "target": "Soraka",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Elise",
+    "target": "LeBlanc",
+    "type": "Friendly"
+  },
+  {
+    "source": "Hecarim",
+    "target": "Kalista",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Renekton",
+    "target": "Sivir",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Renekton",
+    "target": "Azir",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Skarner",
+    "target": "Taric",
+    "type": "Friendly"
+  },
+  {
+    "source": "Renekton",
+    "target": "Nasus",
+    "type": "Related"
+  },
+  {
+    "source": "Sivir",
+    "target": "Azir",
+    "type": "Friendly"
+  },
+  {
+    "source": "Nasus",
+    "target": "Xerath",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Renekton",
+    "target": "Xerath",
+    "type": "Friendly"
+  },
+  {
+    "source": "Nasus",
+    "target": "Sivir",
+    "type": "Friendly"
+  },
+  {
+    "source": "Taliyah",
+    "target": "Yasuo",
+    "type": "Friendly"
+  },
+  {
+    "source": "Taliyah",
+    "target": "Sivir",
+    "type": "Friendly"
+  },
+  {
+    "source": "Taliyah",
+    "target": "Nasus",
+    "type": "Friendly"
+  },
+  {
+    "source": "Taliyah",
+    "target": "Azir",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Taliyah",
+    "target": "Xerath",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kassadin",
+    "target": "Malzahar",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Dr. Mundo",
+    "target": "Dr. Mundo",
+    "type": "Friendly"
+  },
+  {
+    "source": "Twitch",
+    "target": "Zac",
+    "type": "Friendly"
+  },
+  {
+    "source": "Singed",
+    "target": "Warwick",
+    "type": "Friendly"
+  },
+  {
+    "source": "Singed",
+    "target": "Viktor",
+    "type": "Friendly"
+  },
+  {
+    "source": "Blitzcrank",
+    "target": "Viktor",
+    "type": "Other"
+  },
+  {
+    "source": "Blitzcrank",
+    "target": "Rammus",
+    "type": "Friendly"
+  },
+  {
+    "source": "Blitzcrank",
+    "target": "Orianna",
+    "type": "Friendly"
+  },
+  {
+    "source": "Aatrox",
+    "target": "Tryndamere",
+    "type": "Other"
+  },
+  {
+    "source": "Ekko",
+    "target": "Jayce",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Gnar",
+    "target": "Tahm Kench",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Twisted Fate",
+    "type": "Friendly"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Nautilus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Hecarim",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Mordekaiser",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Yorick",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Thresh",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Karthus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jhin",
+    "target": "Sona",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jhin",
+    "target": "Master Yi",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Jhin",
+    "target": "Zed",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "KhaZix",
+    "target": "Malzahar",
+    "type": "Friendly"
+  },
+  {
+    "source": "Kindred",
+    "target": "Hecarim",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kindred",
+    "target": "Mordekaiser",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kindred",
+    "target": "Thresh",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kindred",
+    "target": "Karthus",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kindred",
+    "target": "Yorick",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "KogMaw",
+    "target": "Malzahar",
+    "type": "Friendly"
+  },
+  {
+    "source": "Lucian",
+    "target": "Thresh",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "VelKoz",
+    "target": "KogMaw",
+    "type": "Friendly"
+  },
+  {
+    "source": "VelKoz",
+    "target": "ChoGath",
+    "type": "Friendly"
+  },
+  {
+    "source": "VelKoz",
+    "target": "KhaZix",
+    "type": "Friendly"
+  },
+  {
+    "source": "VelKoz",
+    "target": "Kassadin",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Kindred",
+    "target": "Kindred",
+    "type": "Friendly"
+  },
+  {
+    "source": "VelKoz",
+    "target": "Zilean",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Azir",
+    "target": "Xerath",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Ekko",
+    "target": "Viktor",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Urgot",
+    "target": "Viktor",
+    "type": "Friendly"
+  },
+  {
+    "source": "Jinx",
+    "target": "Vi",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Aatrox",
+    "target": "Tahm Kench",
+    "type": "Friendly"
+  },
+  {
+    "source": "Jhin",
+    "target": "Shen",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "KhaZix",
+    "target": "Rengar",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Azir",
+    "target": "Nasus",
+    "type": "Friendly"
+  },
+  {
+    "source": "Illaoi",
+    "target": "Miss Fortune",
+    "type": "Friendly"
+  },
+  {
+    "source": "Gnar",
+    "target": "Lulu",
+    "type": "Friendly"
+  },
+  {
+    "source": "KhaZix",
+    "target": "KogMaw",
+    "type": "Friendly"
+  },
+  {
+    "source": "ChoGath",
+    "target": "KogMaw",
+    "type": "Friendly"
+  },
+  {
+    "source": "ChoGath",
+    "target": "KhaZix",
+    "type": "Friendly"
+  },
+  {
+    "source": "Ekko",
+    "target": "Jinx",
+    "type": "Friendly"
+  },
+  {
+    "source": "Azir",
+    "target": "Cassiopeia",
+    "type": "Antagonistic"
+  },
+  {
+    "source": "Garen",
+    "target": "Taric",
+    "type": "Friendly"
+  }
+]
