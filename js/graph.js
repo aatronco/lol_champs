@@ -5,17 +5,6 @@
  * Dependencies (globals): d3, computeCommunities, SidebarController
  */
 
-const REGION_COLORS = {
-  'Freljord':     '#3b82f6', 'Noxus':        '#ef4444',
-  'Demacia':      '#f8fafc', 'Ionia':        '#22c55e',
-  'Piltover':     '#f59e0b', 'Zaun':         '#84cc16',
-  'Bilgewater':   '#0ea5e9', 'Shadow Isles': '#7c3aed',
-  'Shurima':      '#d97706', 'Mt. Targon':   '#e879f9',
-  'Void':         '#6366f1', 'Bandle City':  '#fb923c',
-  'Ixtal':        '#10b981', 'Independent':  '#6b7280',
-  'Unknown':      '#374151',
-};
-
 const EDGE_COLORS = {
   'Friendly':     '#22c55e',
   'Antagonistic': '#ef4444',
@@ -24,17 +13,8 @@ const EDGE_COLORS = {
   'Other':        '#e5e7eb',
 };
 
-const COMMUNITY_COLORS = [
-  '#60a5fa','#f87171','#34d399','#fbbf24','#a78bfa',
-  '#f472b6','#38bdf8','#fb923c','#4ade80','#e879f9',
-];
-
 function nodeRadius(d) {
   return Math.min(20, Math.max(4, 4 + (d.degree || 0) * 0.8));
-}
-
-function communityColor(id) {
-  return COMMUNITY_COLORS[id % COMMUNITY_COLORS.length];
 }
 
 function showError(msg) {
@@ -147,7 +127,7 @@ async function init() {
       tooltip.innerHTML = `
         <div class="tt-name">${d.id}</div>
         <div class="tt-row">Region: ${d.region}</div>
-        <div class="tt-row">Community: ${cid !== undefined ? cid : '—'}</div>
+        <div class="tt-row">Community ${cid !== undefined ? cid : '—'}</div>
         <div class="tt-neighbors">${neighbors.join(', ') || 'No connections'}</div>
       `;
       tooltip.style.display = 'block';
@@ -247,8 +227,9 @@ function drag(simulation) {
       d.fx = event.x; d.fy = event.y;
     })
     .on('end', (event, d) => {
-      if (!event.active) simulation.alphaTarget(0);
-      // keep node fixed where user dropped it
+      if (!event.active) simulation.alphaTarget(0).alpha(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
     });
 }
 
