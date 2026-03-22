@@ -61,7 +61,7 @@ Ashe,Anivia,Friendly
 Gragas,Braum,Friendly
 Lissandra,Brand,Antagonistic
 Lissandra,Braum,Antagonistic
-Nunu,Lissandra,Antagonistic
+Nunu & Willump,Lissandra,Antagonistic
 Trundle,Sejuani,Antagonistic
 Tryndamere,Ashe,Friendly
 Tryndamere,Ashe,Romantic
@@ -80,12 +80,12 @@ Lissandra,Trundle,Friendly
 Lissandra,Sejuani,Antagonistic
 Ashe,Sejuani,Antagonistic
 Olaf,Sejuani,Friendly
-Anivia,Nunu,Friendly
-Ashe,Nunu,Friendly
+Anivia,Nunu & Willump,Friendly
+Ashe,Nunu & Willump,Friendly
 Ashe,Lissandra,Antagonistic
 Anivia,Lissandra,Antagonistic
 Gragas,Jax,Friendly
-Anivia,Gnar,Speculative
+Anivia,Gnar,Other
 Anivia,Brand,Antagonistic
 Malphite,Maokai,Friendly
 Nami,Nautilus,Antagonistic
@@ -208,35 +208,35 @@ Illaoi,Karthus,Antagonistic
 Jhin,Sona,Antagonistic
 Jhin,Master Yi,Antagonistic
 Jhin,Zed,Antagonistic
-KhaZix,Malzahar,Friendly
+Kha'Zix,Malzahar,Friendly
 Kindred,Hecarim,Antagonistic
 Kindred,Mordekaiser,Antagonistic
 Kindred,Thresh,Antagonistic
 Kindred,Karthus,Antagonistic
 Kindred,Yorick,Antagonistic
-KogMaw,Malzahar,Friendly
+Kog'Maw,Malzahar,Friendly
 Lucian,Thresh,Antagonistic
-VelKoz,KogMaw,Friendly
-VelKoz,ChoGath,Friendly
-VelKoz,KhaZix,Friendly
-VelKoz,Kassadin,Antagonistic
+Vel'Koz,Kog'Maw,Friendly
+Vel'Koz,Cho'Gath,Friendly
+Vel'Koz,Kha'Zix,Friendly
+Vel'Koz,Kassadin,Antagonistic
 Azir,Sivir,Related
 Kindred,Kindred,Friendly
 Urgot,Sion,Friendly
-VelKoz,Zilean,Antagonistic
+Vel'Koz,Zilean,Antagonistic
 Azir,Xerath,Antagonistic
 Ekko,Viktor,Antagonistic
 Urgot,Viktor,Friendly
 Jinx,Vi,Antagonistic
 Aatrox,Tahm Kench,Friendly
 Jhin,Shen,Antagonistic
-KhaZix,Rengar,Antagonistic
+Kha'Zix,Rengar,Antagonistic
 Azir,Nasus,Friendly
 Illaoi,Miss Fortune,Friendly
 Gnar,Lulu,Friendly
-KhaZix,KogMaw,Friendly
-ChoGath,KogMaw,Friendly
-ChoGath,KhaZix,Friendly
+Kha'Zix,Kog'Maw,Friendly
+Cho'Gath,Kog'Maw,Friendly
+Cho'Gath,Kha'Zix,Friendly
 Ekko,Jinx,Friendly
 Azir,Cassiopeia,Antagonistic
 Garen,Taric,Friendly

@@ -295,7 +295,7 @@
     "type": "Antagonistic"
   },
   {
-    "source": "Nunu",
+    "source": "Nunu & Willump",
     "target": "Lissandra",
     "type": "Antagonistic"
   },
@@ -386,12 +386,12 @@
   },
   {
     "source": "Anivia",
-    "target": "Nunu",
+    "target": "Nunu & Willump",
     "type": "Friendly"
   },
   {
     "source": "Ashe",
-    "target": "Nunu",
+    "target": "Nunu & Willump",
     "type": "Friendly"
   },
   {
@@ -412,7 +412,7 @@
   {
     "source": "Anivia",
     "target": "Gnar",
-    "type": "Speculative"
+    "type": "Other"
   },
   {
     "source": "Anivia",
@@ -1015,7 +1015,7 @@
     "type": "Antagonistic"
   },
   {
-    "source": "KhaZix",
+    "source": "Kha'Zix",
     "target": "Malzahar",
     "type": "Friendly"
   },
@@ -1045,7 +1045,7 @@
     "type": "Antagonistic"
   },
   {
-    "source": "KogMaw",
+    "source": "Kog'Maw",
     "target": "Malzahar",
     "type": "Friendly"
   },
@@ -1055,22 +1055,22 @@
     "type": "Antagonistic"
   },
   {
-    "source": "VelKoz",
-    "target": "KogMaw",
+    "source": "Vel'Koz",
+    "target": "Kog'Maw",
     "type": "Friendly"
   },
   {
-    "source": "VelKoz",
-    "target": "ChoGath",
+    "source": "Vel'Koz",
+    "target": "Cho'Gath",
     "type": "Friendly"
   },
   {
-    "source": "VelKoz",
-    "target": "KhaZix",
+    "source": "Vel'Koz",
+    "target": "Kha'Zix",
     "type": "Friendly"
   },
   {
-    "source": "VelKoz",
+    "source": "Vel'Koz",
     "target": "Kassadin",
     "type": "Antagonistic"
   },
@@ -1080,7 +1080,7 @@
     "type": "Friendly"
   },
   {
-    "source": "VelKoz",
+    "source": "Vel'Koz",
     "target": "Zilean",
     "type": "Antagonistic"
   },
@@ -1115,7 +1115,7 @@
     "type": "Antagonistic"
   },
   {
-    "source": "KhaZix",
+    "source": "Kha'Zix",
     "target": "Rengar",
     "type": "Antagonistic"
   },
@@ -1135,18 +1135,18 @@
     "type": "Friendly"
   },
   {
-    "source": "KhaZix",
-    "target": "KogMaw",
+    "source": "Kha'Zix",
+    "target": "Kog'Maw",
     "type": "Friendly"
   },
   {
-    "source": "ChoGath",
-    "target": "KogMaw",
+    "source": "Cho'Gath",
+    "target": "Kog'Maw",
     "type": "Friendly"
   },
   {
-    "source": "ChoGath",
-    "target": "KhaZix",
+    "source": "Cho'Gath",
+    "target": "Kha'Zix",
     "type": "Friendly"
   },
   {
