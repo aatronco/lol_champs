@@ -118,12 +118,11 @@ function SidebarController({ communities, nodes, onFilterChange, onCommunitySele
 
   // --- Region legend ---
   const legendContainer = document.getElementById('region-legend');
-  const regions = [...new Set(nodes.map(n => n.region))].sort();
-  regions.forEach(region => {
+  Object.entries(REGION_COLORS).forEach(([region, color]) => {
     const entry = document.createElement('div');
     entry.className = 'legend-entry';
     entry.innerHTML = `
-      <div class="legend-dot" style="background:${REGION_COLORS[region] || '#374151'}"></div>
+      <div class="legend-dot" style="background:${color}"></div>
       <span>${region}</span>
     `;
     legendContainer.appendChild(entry);
