@@ -5,13 +5,6 @@
  * Dependencies (globals): d3, computeCommunities, SidebarController
  */
 
-const EDGE_COLORS = {
-  'Friendly':     '#22c55e',
-  'Antagonistic': '#ef4444',
-  'Romantic':     '#ec4899',
-  'Related':      '#6b7280',
-  'Other':        '#e5e7eb',
-};
 
 function nodeRadius(d) {
   return Math.min(20, Math.max(4, 4 + (d.degree || 0) * 0.8));
@@ -77,10 +70,11 @@ async function init() {
   const g = svg.append('g');
 
   // Zoom
-  svg.call(d3.zoom()
+  const zoom = d3.zoom()
     .scaleExtent([0.1, 4])
-    .on('zoom', e => g.attr('transform', e.transform))
-  );
+    .on('zoom', e => g.attr('transform', e.transform));
+
+  svg.call(zoom);
 
   // Force simulation
   const simulation = d3.forceSimulation(nodes)
@@ -95,7 +89,7 @@ async function init() {
     .selectAll('line')
     .data(validLinks)
     .join('line')
-    .attr('stroke', d => EDGE_COLORS[d.type] || '#e5e7eb')
+    .attr('stroke', d => RELATIONSHIP_COLORS[d.type] || '#e5e7eb')
     .attr('stroke-width', 1.5)
     .attr('stroke-opacity', 0.6);
 
@@ -183,6 +177,11 @@ async function init() {
       .attr('stroke-opacity', d => {
         const s = typeof d.source === 'object' ? d.source.id : d.source;
         const t = typeof d.target === 'object' ? d.target.id : d.target;
+        const sVisible = (!searchQuery || s.toLowerCase().includes(searchQuery)) &&
+          (selectedCommunity === null || communities.get(s) === selectedCommunity);
+        const tVisible = (!searchQuery || t.toLowerCase().includes(searchQuery)) &&
+          (selectedCommunity === null || communities.get(t) === selectedCommunity);
+        if (!sVisible || !tVisible) return 0.2;
         const sc = communities.get(s);
         const tc = communities.get(t);
         return sc !== undefined && sc === tc ? 0.6 : 0.2;
@@ -190,6 +189,11 @@ async function init() {
       .attr('stroke-width', d => {
         const s = typeof d.source === 'object' ? d.source.id : d.source;
         const t = typeof d.target === 'object' ? d.target.id : d.target;
+        const sVisible = (!searchQuery || s.toLowerCase().includes(searchQuery)) &&
+          (selectedCommunity === null || communities.get(s) === selectedCommunity);
+        const tVisible = (!searchQuery || t.toLowerCase().includes(searchQuery)) &&
+          (selectedCommunity === null || communities.get(t) === selectedCommunity);
+        if (!sVisible || !tVisible) return 0.8;
         const sc = communities.get(s);
         const tc = communities.get(t);
         return sc !== undefined && sc === tc ? 1.5 : 0.8;
@@ -204,13 +208,10 @@ async function init() {
     const cy = matches.reduce((s, d) => s + d.y, 0) / matches.length;
     // Preserve current zoom scale, only translate to center the matches
     const currentTransform = d3.zoomTransform(svg.node());
-    svg.transition().duration(500).call(
-      d3.zoom().scaleExtent([0.1, 4]).on('zoom', e => g.attr('transform', e.transform)).transform,
-      d3.zoomIdentity.scale(currentTransform.k).translate(
-        (width / 2 - cx * currentTransform.k) / currentTransform.k,
-        (height / 2 - cy * currentTransform.k) / currentTransform.k
-      )
-    );
+    const newTransform = d3.zoomIdentity
+      .translate(width / 2 - cx * currentTransform.k, height / 2 - cy * currentTransform.k)
+      .scale(currentTransform.k);
+    svg.transition().duration(500).call(zoom.transform, newTransform);
   }
 
   // Initial edge styling
