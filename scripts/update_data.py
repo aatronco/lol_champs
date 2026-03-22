@@ -3,6 +3,7 @@
 
 import json
 import csv
+import os
 import sys
 import requests
 
@@ -28,16 +29,22 @@ SLUG_TO_REGION = {
 
 
 def fetch_versions():
-    return requests.get(f"{DDRAGON_BASE}/api/versions.json", timeout=10).json()
+    r = requests.get(f"{DDRAGON_BASE}/api/versions.json", timeout=10)
+    r.raise_for_status()
+    return r.json()
 
 
 def fetch_champions(version):
     url = f"{DDRAGON_BASE}/cdn/{version}/data/en_US/champion.json"
-    return requests.get(url, timeout=10).json()
+    r = requests.get(url, timeout=10)
+    r.raise_for_status()
+    return r.json()
 
 
 def fetch_universe():
-    return requests.get(UNIVERSE_URL, timeout=10).json()
+    r = requests.get(UNIVERSE_URL, timeout=10)
+    r.raise_for_status()
+    return r.json()
 
 
 def load_legacy_regions(csv_path):
@@ -50,7 +57,7 @@ def load_legacy_regions(csv_path):
 
 
 def region_from_universe(display_name, ddragon_key, universe_data):
-    """Look up region via Universe API data. Returns display name or 'Unknown'."""
+    """Look up region via Universe API data. Returns region string or 'Unknown'."""
     slug_candidate = ddragon_key.lower().replace("'", "").replace(".", "").replace(" ", "-")
     for champ in universe_data.get("champion-list", []):
         champ_slug = champ.get("slug", "")
@@ -86,7 +93,7 @@ def build_nodes(nodes_csv_path="nodes.csv"):
 def main():
     nodes = build_nodes()
     output_path = "data/nodes.json"
-    import os; os.makedirs("data", exist_ok=True)
+    os.makedirs("data", exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(nodes, f, indent=2, ensure_ascii=False)
     print(f"Wrote {len(nodes)} champions to {output_path}")

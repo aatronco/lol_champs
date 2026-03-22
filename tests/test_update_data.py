@@ -53,7 +53,7 @@ def test_region_from_csv_takes_priority(tmp_path):
 
 def test_new_champion_gets_region_from_universe():
     universe_data = MOCK_UNIVERSE
-    region = update_data.region_from_universe("NewChamp", "new-champ", universe_data)
+    region = update_data.region_from_universe("New Champ", "NewChamp", universe_data)
     assert region == "Ionia"
 
 
